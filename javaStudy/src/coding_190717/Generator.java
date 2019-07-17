@@ -8,9 +8,9 @@ public class Generator {
     {
         calculateNumbersHasGenerator();
         int sum = 0;
-        for (int i = 0; i < 5001; i++)
-            if (!hasGenerator(i))
-                sum += i;
+        for (int j = 0; j < 5001; j++)
+            if (!hasGenerator(j))
+                sum += j;
         System.out.println("гу : "+sum);
     }
 
