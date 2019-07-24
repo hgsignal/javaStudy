@@ -43,7 +43,7 @@ public class Generator {
     private static void calculateNumbersHasGenerator()
     {
         numbersHasGenerator = new ArrayList<Integer>();
-        for (int i = 0; i <= 5000; i++)
+        for (int i = 0; i < 5001; i++)
         {
             String num = String.valueOf(i);
             int no = 0;
